@@ -1,38 +1,155 @@
 .App {
+  margin: auto;
+  width: 1080px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: 750;
+}
+
+.header-top {
+  background-color: #7abcac;
+  height: 60px;
+}
+
+.header-name {
+  margin: auto;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  width: fit-content;
+  border: 4px solid #000000;
+  padding: 30px 70px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-programmer {
+  background: #000000;
+  text-align: center;
+  padding: 0 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.font--white {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hr--green {
+  background-color: #7abcac;
+  height: 10px;
+  width: 100px;
+  border: none;
+}
+.hr--grey {
+  background-color: #dcdcdc;
+  height: 4px;
+  width: 100%;
+  border: none;
+}
+
+.hr--short {
+  background-color: #dcdcdc;
+  height: 4px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  border: none;
+  margin-left: 1px;
+}
+.hr--vertical {
+  background-color: #dcdcdc;
+  height: 250px;
+  width: 6px;
+  margin: 20px;
+  border: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.label {
+  margin-top: 20px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #7abcac;
+  border-radius: 20px;
+  padding: 2px 20px;
+}
+
+.label--yellow {
+  background-color: #d8da79;
+}
+
+.label--red {
+  background-color: #c29486;
+}
+
+.label--black {
+  background-color: #000000;
+  padding: 5px 100px;
+}
+
+.first-flex {
+  display: flex;
+  flex-direction: row;
+}
+.second-flex {
+  display: flex;
+  flex-direction: row;
+}
+.jobs {
+  display: flex;
+  flex-direction: column;
+}
+.work_exp_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-center {
+  text-align: center;
+}
+.padding {
+  padding-right: 30px;
+}
+.item1 {
+  flex: 0 0 28%;
+}
+.item2 {
+  flex: 0 0 70%;
+}
+.item3,
+.item4,
+.item5 {
+  flex-grow: 1;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lyg {
+  display: flex;
+  flex-direction: column;
+}
+.font--white {
+  color: white;
+}
+a {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  color: #7abcac;
 }
