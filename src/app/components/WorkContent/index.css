@@ -1,0 +1,11 @@
+.Jobs {
+  display: flex;
+  flex-direction: column;
+}
+
+.Text-center {
+  text-align: center;
+}
+.Strong-font {
+  font-weight: 800;
+}

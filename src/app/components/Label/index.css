@@ -1,0 +1,21 @@
+.Label {
+  margin-top: 20px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #7abcac;
+  border-radius: 20px;
+  padding: 2px 20px;
+}
+
+.Label--yellow {
+  background-color: #d8da79;
+}
+
+.Label--red {
+  background-color: #c29486;
+}
+
+.Label--black {
+  background-color: #000000;
+  padding: 5px 100px;
+}

@@ -1,0 +1,62 @@
+.Hr--green {
+  background-color: #7abcac;
+  height: 10px;
+  width: 100px;
+  border: none;
+}
+.Hr--grey {
+  background-color: #dcdcdc;
+  height: 4px;
+  width: 100%;
+  border: none;
+}
+
+.Hr--short {
+  background-color: #dcdcdc;
+  height: 4px;
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  border: none;
+  margin-left: 1px;
+}
+.Hr--vertical {
+  background-color: #dcdcdc;
+  height: 250px;
+  width: 6px;
+  margin: 20px;
+  border: none;
+}
+.Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Title {
+  font-size: 24px;
+}
+
+.Item1 {
+  flex: 0 0 28%;
+}
+.Item2 {
+  flex: 0 0 70%;
+}
+.Item3,
+.Item4,
+.Item5 {
+  flex-grow: 1;
+}
+
+.First-flex {
+  display: flex;
+  flex-direction: row;
+}
+.Second-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.Padding {
+  padding-right: 30px;
+}
